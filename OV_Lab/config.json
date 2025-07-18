@@ -1,0 +1,8 @@
+{
+    "task_type": "classification",
+    "model_type": "Classification",
+    "model_parameters": {
+        "labels": "tulip water_lily",
+        "labels_ids": "67f36fac14463d01fba07537 67f36fac14463d01fba07538"
+    }
+}
