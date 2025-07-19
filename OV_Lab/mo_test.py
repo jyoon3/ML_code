@@ -15,6 +15,8 @@ y_train = np.array([2.0, 4.0, 6.0, 8.0])
 # NumPy 배열을 model.fit()에 전달
 model.fit(x_train, y_train, epochs=5)
 
+# 모델을 Savy_train = np.array([2.0, 4.0, 6.0, 8.0])
+
 # 모델을 SavedModel 형식으로 저장 (디렉토리 생성)
 saved_model_path = "./my_saved_model"
 tf.saved_model.save(model, saved_model_path)
