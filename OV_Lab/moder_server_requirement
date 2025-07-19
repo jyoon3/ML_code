@@ -3,3 +3,7 @@ wget https://raw.githubusercontent.com/openvinotoolkit/model_server/releases/202
 wget https://raw.githubusercontent.com/openvinotoolkit/open_model_zoo/master/data/dataset_classes/coco_91cl.txt
 
 wget https://storage.openvinotoolkit.org/repositories/openvino_notebooks/data/data/image/coco_bike.jpg
+
+
+mo --input_model "/home/intel/work_space/python_310/ML_code-main/my_saved_model" --input_shape "[-1,1]"
+
