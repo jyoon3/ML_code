@@ -1,0 +1,9 @@
+--- OpenVINO IR 노드 (Layers) 목록 (파이썬 API 변환) ---
+  ID: 0, Name: inputs, Type: Parameter
+  ID: 1, Name: Transpose_2136_compressed, Type: Const
+  ID: 2, Name: Transpose_2136, Type: Convert
+  ID: 3, Name: sequential_1/dense_1/MatMul, Type: MatMul
+  ID: 4, Name: Constant_2155_compressed, Type: Const
+  ID: 5, Name: Constant_2155, Type: Convert
+  ID: 6, Name: sequential_1/dense_1/Add, Type: Add
+  ID: 7, Name: output_0, Type: Result
