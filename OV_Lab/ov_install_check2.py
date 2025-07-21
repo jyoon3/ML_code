@@ -12,7 +12,7 @@ import sys
 try:
     # Core 객체 생성 시도
     ie = Core()
-    print("🎉 OpenVINO Core 객체가 성공적으로 생성되었습니다.")
+    print("OpenVINO Core 객체가 성공적으로 생성되었습니다.")
     print(f"OpenVINO 버전: {ov.__version__}")
 
     # 사용 가능한 디바이스 확인 (선택 사항)
